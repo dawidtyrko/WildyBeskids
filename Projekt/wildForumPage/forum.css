@@ -1,0 +1,124 @@
+footer{
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #333;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    color: #FEFAFB;
+}
+body{
+    background-color: #414541;
+    margin: 0;
+    text-align: center;
+}
+#navbar{
+    overflow: hidden;
+    background-color: #333;
+}
+#navbar a{
+   float: left;
+    display: block;
+    color: #FEFAFB;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+#navbar a:hover{
+    background-color: green;
+    color: black;
+}
+#navbar a.active{
+    background-color: green;
+    color: white;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + .content{
+    padding-top: 60px;
+}
+#createPostDiv{
+    display: flex;
+    background-color: #818F77;
+    width: 180px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #FEFAFB;
+    border-radius: 10px;
+    border: none;
+}
+
+#createPostDiv:hover{
+    cursor: pointer;
+}
+#createLink{
+    text-decoration: none;
+    color: #FEFAFB;
+    font-size: 20px;
+}
+#forumPost{
+    background-color: #818F77;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 700px;
+    border-radius: 10px;
+    /* border: 3px black solid; */
+    color: #FEFAFB;
+    
+}
+.coords{
+    margin: 10px;
+    background-color: #585757;
+    color: #FEFAFB;
+    width: 170px;
+    height: 30px;
+    font-size: 18px;
+}
+::placeholder{
+    color: #FEFAFB;
+}
+#submit{
+    background-color: #585757;
+    color: #FEFAFB;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: all 0.2s ease-in-out;
+}
+#submit:hover{
+    cursor: pointer;
+    color: rgb(20, 208, 145);
+}
+#desc{
+    background-color: #585757;
+    color: #FEFAFB;
+    font-size: 15px;
+}
+table td{
+    width: 150px;
+    height: 150px;
+    
+}
+
+.deleteBtn{
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+.deleteBtn:hover{
+    cursor: pointer;
+    color: rgb(213, 15, 15);
+}

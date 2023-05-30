@@ -1,0 +1,153 @@
+footer{
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #333;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    color: #FEFAFB;
+}
+body{
+    background-color: #414541;
+    margin: 0;
+    text-align: center;
+}
+#navbar{
+    overflow: hidden;
+    background-color: #333;
+}
+#navbar a{
+   float: left;
+    display: block;
+    color: #FEFAFB;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+#navbar a:hover{
+    background-color: green;
+    color: black;
+}
+#navbar a.active{
+    background-color: green;
+    color: white;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + .content{
+    padding-top: 60px;
+}
+#createPostDiv{
+    display: flex;
+    background-color: green;
+    width: 180px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 3px black solid;
+    border-radius: 10px;
+}
+
+#createPostDiv:hover{
+    cursor: pointer;
+}
+#createLink{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+#forumPost{
+    background-color: green;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 700px;
+    border-radius: 10px;
+    border: 3px black solid;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.coords{
+    margin: 10px;
+    background-color: #585757;
+    color: aquamarine;
+    width: 170px;
+    height: 30px;
+    font-size: 18px;
+}
+::placeholder{
+    color: aquamarine;
+}
+#submit{
+    background-color: #585757;
+    color: aquamarine;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: all 0.2s ease-in-out;
+}
+#submit:hover{
+    cursor: pointer;
+    color: rgb(20, 208, 145);
+}
+#desc{
+    background-color: #585757;
+    color: aquamarine;
+    font-size: 15px;
+}
+table td{
+    width: 150px;
+    height: 150px;
+    
+}
+#selectHut{
+    position: absolute;
+    left: 27%;
+    top: 10%;
+    width: 200px;
+    background-color: #585757;
+    color: green;
+}
+#myPlacesOption{
+    
+    font-size: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 32px;
+    background-color: #333;
+    padding: 5px;
+    color: green;
+}
+#show{
+    background-color: #585757;
+    transition: all 0.2s ease-in-out;
+    width: 70px;
+    height: 25px;
+    color: #FEFAFB;
+}
+#show:hover{
+    cursor: pointer;
+    color: rgb(12, 156, 108);
+}
+.deleteBtn{
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+.deleteBtn:hover{
+    cursor: pointer;
+    color: rgb(213, 15, 15);
+}

@@ -1,0 +1,152 @@
+#table{
+    width: 550px;
+    height: 130px;
+    background-color: #818F77;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border-collapse: collapse;
+    padding: 10px;
+    
+}
+#table a{
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+#tableAdmin{
+    width: 700px;
+    min-height: 130px;
+    height: auto;
+    overflow: auto;
+    background-color: #818F77;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border-collapse: collapse;
+    padding: 10px;
+    
+}
+#tableAdmin a{
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+#tableAdmin td{
+    color: #FEFAFB;
+    font-size: 20px;
+    padding: 0 10px;
+    margin: 5px;
+    float: inline-start;
+}
+#tableAdmin th{
+    font-size: 24px;
+}
+.editBtn:hover{
+    cursor: pointer;
+    color: rgb(20, 208, 145);
+}
+.deleteBtn:hover{
+    cursor: pointer;
+    color: rgb(213, 15, 15);
+}
+.disableBtn:hover{
+    cursor: pointer;
+    color: rgb(215, 8, 8);
+}
+#table td{
+    color: #FEFAFB;
+    font-size: 20px;
+    padding: 0 10px;
+    margin: 5px;
+    float: inline-start;
+}
+#table th{
+    font-size: 24px;
+}
+
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+    background-color: #333;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    color: #FEFAFB;
+}
+body{
+    background-color: #414541;
+    margin: 0;
+    text-align: center;
+}
+#navbar{
+    overflow: hidden;
+    background-color: #333;
+}
+#navbar a{
+   float: left;
+    display: block;
+    color: #FEFAFB;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+#navbar a:hover{
+    background-color: green;
+    color: black;
+}
+#navbar a.active{
+    background-color: green;
+    color: white;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + .content{
+    padding-top: 60px;
+}
+#changeForm{
+    background-color: #818F77;
+    width: 400px;
+    height: 440px;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+#changeForm input[type=text]{
+    width: 40%;
+    margin: 10px 0;
+    padding: 12px 20px;
+    background-color: #414541;
+    color: #FEFAFB;
+    transition: width 0.4s ease-in-out;
+}
+#changeForm label{
+    font-size: 17px;
+}
+#changeForm input:focus{
+    background-color: #595959;
+}
+#changeForm input[type=text]:focus{
+    width: 80%;
+}
+#changeForm input[type=submit]{
+    width: 70%;
+    margin: 10px 0;
+    padding: 12px 20px;
+    background-color: #414541;
+    color: #FEFAFB;
+    transition: all 0.2s ease-in-out;
+    font-size: 17px;
+}
+#changeForm input[type=submit]:hover{
+    cursor: pointer;
+    color: rgb(20, 208, 145);
+    font-size: 19px;
+}
+
